@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Raleway&display=swap');
+
+.body {
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: Lato;
+    font-weight: 300;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+    margin-top: 70px;
+}
+
+
+.blog {
+    background: #f3f3f3;
+    box-shadow: 0 0 0.7142857142857143rem #cccccc;
+    padding: 1rem 2rem 0.5rem 2rem;
+    margin: 1.7rem 0;
+    border-radius: 0.2rem;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: Raleway;
+    font-weight: 300;
+    color: #000000;
+}
+
+p{
+    line-height:28px;
+    margin-bottom:25px;
+}
+
+button{
+  background-color: #fff;
+}
+
+.icon-bar{
+  background-color: #1aafa8;
+}
+
+.centered{
+    text-align: center;
+}
+
+a {
+    color: #7b7b7b;
+}
+
+a:hover, a:focus{
+    color: #7dabdb;
+    text-decoration: none;
+    outline: none;
+}
+
+hr{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+
+.navbar{
+    font-weight: 800;
+    font-size: 14px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+
+
+
+#input-search {
+    margin-top: 5px;
+    height: 45px;
+    width: 200px;
+    padding-left: 20px;
+    color: #333;
+    border-radius: 5px;
+}
+
+#btn-search {
+    border-radius: 5px;
+    background-color: #7dabdb;
+    border: 1px solid #FFF;
+    color: #FFF;
+    padding: 11px 22px;
+}
+
+        #btn-search:hover {
+            background-color: #FFF;
+            color: #7dabdb;
+        }
+
+.copyright {
+    background-color: #f0f0f0;
+}
+
+    .copyright p {
+        margin: 15px 0px;
+    }
+
+footer {
+    background-color: #222222;
+    padding: 60px 0px;
+}
+
+    footer .menu li a {
+        color: #b1aca1;
+        padding: 10px;
+        text-decoration: none;
+    }
+
+        footer .menu li a:hover {
+            color: #7dabdb;
+        }
+
+.fa.fa-facebook,
+.fa.fa-dropbox,
+.fa.fa-flickr,
+.fa.fa-github,
+.fa.fa-linkedin,
+.fa, fa-tumblr,
+.fa.fa-google-plus,
+.fa.fa-tumblr {
+    color: #b1aca1;
+    font-size: 20px;
+    padding: 10px;
+}
+
+    .fa.fa-facebook:hover,
+    .fa.fa-dropbox:hover,
+    .fa.fa-flickr:hover,
+    .fa.fa-github:hover,
+    .fa.fa-linkedin:hover,
+    .fa, fa-tumblr:hover,
+    .fa.fa-google-plus:hover,
+    .fa.fa-tumblr:hover {
+        color: #6794c2;
+    }
+
+
+#books {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
